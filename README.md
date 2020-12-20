@@ -1,2 +1,2 @@
 # Matterhorn
-![](Matterhorn.png)
+<div style="text-align:center"><img src="Matterhorn.png" /></div>
