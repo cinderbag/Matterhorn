@@ -1,0 +1,37 @@
+Public Class Form1
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
+    End Sub
+
+    Private Sub ProgressBar1_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub PictureBox1_Click_1(sender As Object, e As EventArgs) Handles PictureBox1.Click
+
+    End Sub
+    Private Sub Form_KeyDown(KeyCode As Integer, Shift As Integer)
+        Select Case KeyCode
+            Case Is = vbKeyControl
+                ctrl = True
+            Case Is = vbKeyAlt
+                alt = True
+            Case Is = vbKeyO
+                o = True
+        End Select
+        If Me.Visible = True Then
+            If ctrl = True And alt = True And o = True Then
+                WindowsMediaPlayer1.settings.mute = True
+                Me.Visible = False
+            End If
+        Else
+            If ctrl = True And alt = True And o = True Then
+                WindowsMediaPlayer1.settings.mute = False
+                Me.Visible = True
+            End If
+        End If
+End Class
