@@ -1,3 +1,3 @@
 # Matterhorn Project.
 ## A useless software.
-<img src="paris.jpg" alt="Paris" class="center">
+<img src="Matterhorn.png" alt="Paris" class="center">
