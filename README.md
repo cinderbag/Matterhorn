@@ -3,4 +3,4 @@
 <img src="Matterhorn.png" alt="Paris" class="center">
 
 Runs EasySploit API
-The nmber 1 Roblox API Service
+The number 1 Roblox API Service
